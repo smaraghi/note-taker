@@ -1,0 +1,74 @@
+body{
+  text-align: center;
+}
+
+.purple-text{
+  color: purple;
+}
+
+@media screen and (min-width: 601px) {
+
+	#main-content{
+		width: 65%;
+		overflow: hidden;
+		margin: auto;
+	}
+
+	#note-entry-container{
+		overflow: hidden;
+	} 
+
+	#note-container{
+		float: left;
+		border: solid;
+		border-width: 1px;
+		width: 70%;
+		min-height: 400px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	#main-content{
+		width: 100%;
+	}
+	
+	#note-entry-container{
+		margin-top: 15px;
+	} 
+	
+	#note-container{
+		border: solid;
+		border-width: 1px;
+		height: 400px;
+		overflow-y: scroll;
+	}
+}
+
+.note{
+	font-size: 20px;
+	width: 75%;
+	margin: 15px auto 0px;
+}
+
+.Blue{
+  background-color: cornflowerblue;
+}
+
+.Pink{
+  background-color: pink;
+}
+
+.Purple{
+  background-color: lavender;
+}
+
+#del-btn{
+  float: right;
+}
+
+textarea{
+	width: 85%;
+	height: 80px;
+}
+
